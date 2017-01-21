@@ -1,4 +1,4 @@
-import AuthorApi from '../api/mockAuthorApi';
+import authorApi from '../api/mockAuthorApi';
 import * as types from './actionTypes';
 
 export function loadAuthorsSuccess(authors) {
