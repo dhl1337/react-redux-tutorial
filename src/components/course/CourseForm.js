@@ -43,7 +43,7 @@ const CourseForm = ({course, allAuthors, onSave, onChange, saving, errors}) => {
                 className="btn btn-primary"
                 onClick={onSave}/>
         </form>
-    )
+    );
 };
 
 CourseForm.propTypes = {
